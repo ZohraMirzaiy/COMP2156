@@ -6,7 +6,7 @@
   "homepage": "https://ZohraMirzaiy.github.io/COMP2156",
   "scripts": {
     "test": "echo \"Warning: No tests created yet.\"",
-    "predeploy": "npm run build",
+
     "deploy": "gh-pages -d build"
   },
   "keywords": [],
@@ -14,5 +14,8 @@
   "license": "ISC",
   "devDependencies": {
     "gh-pages": "^6.3.0"
+  },
+  "dependencies": {
+    "react-scripts": "^5.0.1"
   }
 }
